@@ -1,0 +1,35 @@
+.navList {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+.navList li {
+    margin-right: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    color: rgb(125, 7, 7);
+    transition: all 0.4s;
+    width: 30px;
+    overflow: visible;
+    padding-left: 5px;
+    
+   
+    
+}
+
+.navList li:hover {
+    background-color: rgb(252, 170, 170);
+   
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: currentColor;
+}

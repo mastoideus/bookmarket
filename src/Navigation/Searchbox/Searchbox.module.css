@@ -1,0 +1,35 @@
+.searchbox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.searchbox input {
+    height: 60%;
+    width: 350px;
+    outline: none;
+    border: 1px solid  rgb(125, 7, 7);
+    border-radius: 5px;
+    padding:10px;
+    box-sizing: border-box;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 50px;
+}
+
+.searchIcon {
+    height: 60%;
+    background-color: rgb(189, 225, 225);
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(125, 7, 7);
+}

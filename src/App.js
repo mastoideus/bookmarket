@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Toolbar from './Navigation/Toolbar/Toolbar'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import ProductsPage from './ProductsPage/ProductsPage'
+import {GenreProvider} from './genres-context'
+import OrdersPage from './OrdersPage/OrdersPage'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GenreProvider>
+    <Router>
+        <Toolbar/>
+        <Switch>
+        <Route path='/' exact>
+           <ProductsPage/>
+        </Route>
+        <Route path='/orders' exact>
+           <OrdersPage/>
+        </Route>
+        </Switch>
+    </Router>
+    </GenreProvider>
   );
 }
 
 export default App;
+
+

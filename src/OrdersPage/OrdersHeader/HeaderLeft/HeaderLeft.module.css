@@ -1,0 +1,26 @@
+.headerLeft {
+    width: 30%;
+   box-sizing: border-box;
+    
+}
+
+.headerLeft h1 {
+    color: rgb(103, 3, 3);
+    font-size: 1.6rem;
+}
+
+.headerLeft button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid rgb(103, 3, 3);
+    background-color: transparent;
+    padding: 5px 0px;
+    color: wheat;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.headerLeft button:hover {
+    background-color: rgb(103, 3, 3);
+}

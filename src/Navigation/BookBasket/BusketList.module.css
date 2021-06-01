@@ -1,0 +1,24 @@
+.listItem {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+   
+    
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: rgba(154, 151, 151, 0.8);
+    font-weight:lighter;
+    
+}
+
+
+.harry {
+    color: rgb(89, 85, 85);
+    font-weight: normal;
+}

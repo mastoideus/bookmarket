@@ -1,0 +1,84 @@
+.DetailsModal {
+    position: fixed;
+    top: 35%;
+    width: 45%;
+    left: 30%;
+    height: 390px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid rgb(222, 222, 0);
+    box-shadow: 0px 3px 5px rgba(62, 60, 60, 0.8);
+    z-index: 90;
+    display: flex;
+    
+    
+}
+
+.imgContainer {
+    width: 53%;
+    height: 100%;
+
+}
+
+.image {
+   width: 100%;
+   height: 100%;
+}
+
+.rightContent {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.rightContent p {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.image2 {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.openModal {
+    animation: open 400ms ease-out forwards
+}
+
+
+@keyframes open {
+    0%{
+      opacity: 0;
+      transform:translateY(-50%)
+    }
+    50%{
+       opacity: 1;
+       transform:translateY(5%)
+    }
+    100%{
+        transform:translateY(0)
+    }
+}
+
+
+.closeModal {
+    animation: close 300ms ease-out forwards
+}
+
+@keyframes close {
+    0%{
+      opacity: 1;
+      transform:translateY(0)
+    }
+    50%{
+       opacity: 0.7;
+       transform:translateY(20%)
+    }
+    100%{
+        opacity: 0;
+        transform:translateY(-50%)
+    }
+}

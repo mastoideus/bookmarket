@@ -1,0 +1,26 @@
+.btnlist {
+   width: 100%;
+}
+
+.btnlist button {
+    padding: 25px 0px;
+    text-align: center;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: white;
+    font-size: 17px;
+    text-shadow: 0px 4px 6px rgba(9, 9, 9, 0.8);
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.btnlist button:hover {
+    text-shadow: 0px 0px 0px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(125, 7, 7);
+    
+}
