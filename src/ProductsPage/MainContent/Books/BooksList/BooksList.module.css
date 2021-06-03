@@ -24,7 +24,7 @@
 }
 
 .header h3 {
-    font-size: 28px;
+    font-size: 20px;
     padding-left: 460px;
     text-shadow: 0px 3px 5px rgba(111, 4, 4, 0.8);
     color: white;
@@ -38,13 +38,28 @@
     color: black;
 }
 
-.header h3 {
-    color: white;
-    font-size: 20px;
-    margin-left: 370px;
-}
 
 .img {
     height: 150%;
 }
 
+
+@media(max-width:860px){
+    .header h3 {
+        padding-left: 40px;
+    }
+
+}
+@media(max-width:600px){
+    .header {
+        margin-left: -60%;
+        width: 160%;
+    }
+    .header h3{
+        display: none;
+    }
+    .img {
+        position: relative;
+        left: 400px;
+    }
+}

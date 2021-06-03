@@ -81,3 +81,15 @@
        background-color: rgb(247, 104, 104);
 }
 
+
+
+@media(max-width:600px){
+    .booklist {
+        display: none;
+    }
+    .list {
+        width: 220px;
+        left: -170px;
+       
+    }
+}

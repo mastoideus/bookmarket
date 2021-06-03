@@ -7,3 +7,13 @@
     display: flex;
     
 }
+
+
+@media(max-width:870px){
+    .ordersHeader{
+        flex-direction: column;
+       height: 500px;
+       
+      
+    }
+}

@@ -36,6 +36,12 @@
     
 }
 
+
+.name {
+    color:black;
+     font-family: 'Montserrat', sans-serif;
+     font-size:80px
+}
 .circle {
     background-color: rgb(234, 234, 116);
     width: 250px;
@@ -52,5 +58,34 @@
     align-items: center;
     text-align: left;
     margin-top: 40px
+}
+
+
+@media (max-width:900px){
+    .image {
+        display: none;
+    }
+
+}
+
+@media (max-width:750px){
+    .info {
+        width: 100%;
+    }
+    .title {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .name {
+        font-size: 3.5rem;
+    }
+    .header {
+        height: 520px;
+    }
+    .buttons {
+        width: 100%;
+        margin-left: 10px;
+    }
+
 }
 

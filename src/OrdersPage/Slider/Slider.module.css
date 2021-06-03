@@ -78,3 +78,10 @@
     background-color: rgb(159, 4, 4);
     border-radius: 6px;
 }
+
+@media (max-width:600px) {
+ .sectionCenter{
+     width: 80%;
+     margin: 0 auto;
+ }
+}

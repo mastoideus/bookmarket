@@ -12,7 +12,7 @@ const Header= props=>{
         <header className={classes.header}>
            <div className={classes.info}>
                 <div className={classes.circle}></div>
-               <h1 className={classes.title}>Buy and sell Books on the biggest online <span style={{color:'black', fontFamily: "'Montserrat', sans-serif",fontSize:'80px'}}>Bookmark<span style={{color:'red'}}>@</span></span></h1>
+               <h1 className={classes.title}>Buy and sell Books on the biggest online <span className={classes.name} >Bookmark<span style={{color:'red'}}>@</span></span></h1>
                
                <div className={classes.buttons}>
                 <HeaderButton sub='GET IT ON' title='Google Play' image={googlePlayImg}/>

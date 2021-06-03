@@ -1,5 +1,5 @@
 .navList {
-    display: flex;
+    display: none;
     list-style: none;
     height: 100%;
     align-items: center;
@@ -32,4 +32,10 @@
 a:-webkit-any-link {
     text-decoration: none;
     color: currentColor;
+}
+
+@media (min-width:800px){
+    .navList {
+        display: flex;
+    }
 }
